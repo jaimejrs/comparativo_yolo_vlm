@@ -1,0 +1,35 @@
+# Credenciais
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Datasets brutos (baixados via Roboflow — use o notebook para re-baixar)
+data/raw_*/
+data/unified/
+data/unified_v2/
+
+# Pesos dos modelos (>39 MB — baixe via notebook ou link de release)
+*.pt
+runs/
+
+# Caches intermediários de inferência VLM (regenerados pelo notebook)
+outputs/vlm_cache/
+outputs/vlm_cache_v2/
+outputs/dedup_paths.json
+
+# Figuras da versão 1 (substituídas pela v2)
+outputs/figures/
+
+# Ferramentas de IDE / agentes locais
+.claude/
+.agents/
+.codex/
+
+# OS
+.DS_Store
+Thumbs.db

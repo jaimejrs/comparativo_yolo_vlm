@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparação YOLOv11m vs Gemma 3 27B — 7 classes operacionais}
+\label{tab:comparacao_yolo_vlm}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Métrica} & \textbf{YOLOv11m} & \textbf{Gemma 3 27B} \\
+\midrule
+mAP@50 (YOLO) & 0.4886 & — \\
+mAP@50-95 (YOLO) & 0.3718 & — \\
+F1 macro & 0.6935 & 0.4541 \\
+MAE score irregularidade & 0.1385 & 0.1716 \\
+Concordância de nível & 65.0% & 57.3% \\
+Spearman score vs GT & 0.6277 & 0.5769 \\
+Latência média (ms) & 16.0 & 3530.0 \\
+Throughput (img/s) & 62.4 & 0.283 \\
+Fator de velocidade & 220× & 1× \\
+\bottomrule
+\end{tabular}
+\end{table}

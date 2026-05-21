@@ -1,0 +1,10 @@
+split,test,train,val,test,test,train,train,val,val
+dataset,taco,taco,taco,aerial_litter_detection,trash_detection,aerial_litter_detection,trash_detection,aerial_litter_detection,trash_detection
+classe,,,,,,,,,
+CAIXAS,38,166,42,0,0,0,0,0,0
+METAIS,86,403,63,390,296,1765,1218,358,282
+OUTROS,203,902,301,0,599,0,2547,0,658
+PAPEL,34,176,41,300,231,1393,963,268,202
+PLASTICO,318,1343,319,141,949,563,4672,108,1106
+SACOS,18,59,18,0,0,0,0,0,0
+VIDRO,83,145,26,0,174,0,596,0,138
