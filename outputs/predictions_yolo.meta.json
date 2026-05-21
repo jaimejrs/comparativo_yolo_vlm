@@ -1,0 +1,7 @@
+{
+  "weights_path": "/home/labian-4/tcc_yolo_vlm/runs/detect/models/yolov11m_7classes/weights/best.pt",
+  "weights_mtime": 1779252175.112532,
+  "test_dir": "data/unified/images/test",
+  "test_count": 1407,
+  "test_latest_mtime": 1779242035.260015
+}

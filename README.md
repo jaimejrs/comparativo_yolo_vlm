@@ -1,6 +1,5 @@
 # Comparativo YOLO vs VLM para Detecção de Resíduos
 
-**TCC — Engenharia / Ciência da Computação**
 
 Comparação metodológica entre **YOLOv11m fine-tuned** e **Gemma 3 27B-IT (zero-shot via LM Studio)** para detecção e scoring de irregularidades de resíduos sólidos em imagens.
 
@@ -141,7 +140,7 @@ O notebook gerencia automaticamente:
 
 ```bibtex
 @misc{ribeiro2026yolo_vlm,
-  author  = {Jaime Ribeiro},
+  author  = {Jaime Teixeira},
   title   = {Comparativo YOLOv11m vs Gemma 3 27B para Detecção de Resíduos},
   year    = {2026},
   url     = {https://github.com/jaimejrs/comparativo_yolo_vlm}
